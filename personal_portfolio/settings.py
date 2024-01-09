@@ -30,7 +30,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['*.railway.app', 'cardonwebstudios.com', 'kristencardon.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://*.railway.app', 'https://cardonwebstudios.com', 'kristencardon.com']
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app', 'https://cardonwebstudios.com', 'https://kristencardon.com']
 
 # Application definition
 
