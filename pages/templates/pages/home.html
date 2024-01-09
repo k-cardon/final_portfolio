@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block page_content %}
+
+<link rel="stylesheet" href="{% static 'pages\CSS\style.css' %}">
+    <div class="row">
+        <div class="col-12">   
+          <br>
+          <h1>Hi, I'm Kristen</h1>
+          <img 
+            src="{% static 'pages/images/fern.jpg' %}" 
+            class="img-fluid" 
+            class="hero-img"
+            id="canyon"
+            loading="lazy" 
+            alt="Verdant canyon covered in ferns">
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <br>
+        <h2 class="display-5">Building websites with Django, Javascript, Bootstrap and more</h2><br>
+        <p id="bio">I am a full stack developer based in Los Angeles, California. I build beautiful, responsive
+          sites and apps for the web. I began my career researching, publishing, and teaching in the academic humanities. 
+          When I finally took a Python coding class, I realized I enjoy creatively solving problems with code--it gave me 
+          a chance to expand my language expertise to a new syntax! So I self-taught web development and opened shop. 
+          <br><br>If you are looking to build or expand your web presence, I'd love to connect!<br><br>
+          <a href="/contact/" class="btn btn-primary" id="button">Contact me</a>
+        </p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img 
+            src="{% static 'pages/images/2021.jpg' %}" 
+            class="img-fluid" 
+            id="portrait" 
+            alt="Woman with curly hair, smiling">
+        </div>
+      </div>
+    
+
+    <hr class="solid">
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/k-cardon/" target="_blank" rel="noopener noreferrer">find me on linkedin</a>
+    </div>
+
+    <div class="row">
+      <div class="col-12">   
+        <footer>
+          <p class="copy">&copy; Copyright 2023</p>
+          <p class="copy">
+            Built with &#x2661; by
+            <a href="https://www.linkedin.com/in/k-cardon/" target="_blank" rel="noopener noreferrer"
+              >Kristen Cardon</a>
+          </p>
+          <a href="https://www.flickr.com/photos/daveynin/28734806387/in/photolist-KMcoQk-KMcqok-2jkCU8X-2kg8993-2jkCUaA-L8eJf5-2ni3exr-d5qmiC-eGAzT3-eGAHgu-eGARi3-eGB5fd-eGB31L-eGAKHA-eGAUdy-eGuEQM-eGuQK6-eGuiWk-eGux2v-fpf7Zp-eGughT-eGuuNT-2HcpGz-2HgQko-Mk9moo-2HcmzX-2HcsKZ-oh5RS-axnDxs-8dQ3xG-8dQ2W1-8dQ2Z1-axjWF2-Mk9mRY-Mk9dU5-axnz1j-axjUD6-fAUpWV-RQNCsS-axnBpG-axjX4H-axjSsR-axjRHM-axnArd-axjTTD-WfQtbW-7AA3gA-Mk9mE5-2oKgmQS-uDVNBJ" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            id="attribution"
+            >Photo credit: daveynin, CC BY 2.0</a>
+        </footer>
+      </div>
+    </div>
+
+
+{% endblock page_content %}
