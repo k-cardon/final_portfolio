@@ -22,7 +22,7 @@ from contact import views as contact_views
 
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
+    path("login/", admin.site.urls),
     path("", include("pages.urls")),
     path('contact/', contact_views.contact_view, name='contact'),
     path("projects/", include("projects.urls")),
