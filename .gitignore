@@ -164,3 +164,7 @@ cython_debug/
 
 # Database
 *.sqlite3
+
+# Default ignored files
+/shelf/
+/workspace.xml
