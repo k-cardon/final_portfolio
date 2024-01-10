@@ -30,7 +30,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['*.railway.app', 'cardonwebstudios.com', 'kristencardon.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://*.railway.app', 'https://cardonwebstudios.com', 'https://kristencardon.com']
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app'] #, 'https://cardonwebstudios.com', 'https://kristencardon.com']
 
 # Application definition
 
@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'personal_portfolio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': [os.environ.get('PGDATABASE')],
         'USER': [os.environ.get('PGUSER')],
         'PASSWORD': [os.environ.get('PGPASSWORD')],
