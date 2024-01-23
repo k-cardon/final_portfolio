@@ -11,7 +11,7 @@ dj-database-url = "*"
 psycopg2 = "*"
 psycopg2-binary = "*"
 wheel = "*"
-pillow = "*"
+pillow = 10.2.0
 
 [dev-packages]
 
