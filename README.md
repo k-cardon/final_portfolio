@@ -4,6 +4,8 @@ This is my portfolio and consulting business website, a custom full stack app th
 
 [Link](https://cardonwebstudios.com/)
 
+![kristencardon](https://github.com/k-cardon/final_portfolio/assets/124483308/5c041166-a9b9-4121-ba00-ebadc91f535c)
+
 ## How I Made This
 
 Tech used: Django, PostgreSQL, HTML, CSS, JavaScript, Bootstrap
