@@ -8,8 +8,8 @@ This is my portfolio and consulting business website, a custom full stack app th
 
 Tech used: Django, PostgreSQL, HTML, CSS, JavaScript, Bootstrap
 
-I built this site using Django, basing the design on previous versions of the site I'd built elsewhere and using Django templating language to achieve dynamic presentation of the items in my PostgreSQL database. I keep up-to-date with Django security best practices for my backend and deployed the project using Railway.
+I built this site using Django, basing the design on previous versions of the site I'd built elsewhere. I used Django templating language to achieve dynamic presentation of my projects, stored in a PostgreSQL database. I keep up-to-date with Django security best practices for my backend and deployed the project using Railway.
 
 ## Lessons Learned
 
-My biggest challenge was deployment, which I have since learned is common for folks learning Django. I'm glad that I chose Railway because the community support really helped me through some of my thornier problems!
+My biggest challenge was deployment, which I have since learned is common for folks learning Django. I'm glad that I chose Railway because the community support really helped me through some of my thornier problems! Shoutout to Vin for sharing the regular expression that made my user media uploads function properly :sweat_smile:
