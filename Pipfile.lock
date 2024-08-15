@@ -48,7 +48,7 @@
             ],
             "index": "pypi",
             "markers": "python_version >= '3.5'",
-            "version": "==21.2.0"
+            "version": "==22.0.0"
         },
         "packaging": {
             "hashes": [
@@ -131,7 +131,7 @@
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==10.2.0"
+            "version": "==10.3.0"
         },
         "psycopg2": {
             "hashes": [
@@ -238,7 +238,7 @@
                 "sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c"
             ],
             "markers": "python_version >= '3.5'",
-            "version": "==0.4.4"
+            "version": "==0.5.0"
         },
         "typing-extensions": {
             "hashes": [
