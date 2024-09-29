@@ -68,12 +68,11 @@ a:hover {
 
 .socials {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: fixed;
   right: 1%;
-  bottom: 50%;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  bottom: 5%;
+  writing-mode: horizontal-tb;
 }
 
 .socicon {
