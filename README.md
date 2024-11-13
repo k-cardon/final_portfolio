@@ -14,4 +14,4 @@ I built this site using Django, basing the design on previous versions of the si
 
 ## Lessons Learned
 
-My biggest challenge was deployment, which is a common experience with Django. I'm glad that I chose Railway because the community support really helped me through some of my thornier problems! Shoutout to Vin for sharing the regular expression that made my user media uploads function properly :sweat_smile:
+My biggest challenge was deployment, us more challenging with Django than with other frameworks I've used like Next.js. I'm glad that I chose Railway as the platform because the community support really helped me through some of my thornier problems! Shoutout to Vin for sharing the regular expression that made my user media uploads function properly :sweat_smile:
